@@ -495,7 +495,7 @@ tower.tesla = {
     weight: 5,
     //weight: 10,
     // Misc
-    name: 'tesla',
+    name: 'destroyer',
     sound: 'spark',
     title: 'Destroyer',
     // Stats

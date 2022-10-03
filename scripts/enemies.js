@@ -155,8 +155,8 @@ enemy.tank = {
     cash: 4,
     health: 750,
     immune: ['poison', 'slow'],
-    resistant: ['energy', 'physical'],
-    weak: ['explosion', 'piercing'],
+    resistant: ['physical'],
+    weak: ['explosion', 'piercing', 'death'],
     // Methods
     draw: function() {
         push();
@@ -190,7 +190,7 @@ enemy.taunt = {
     cash: 8,
     health: 1500,
     immune: ['poison', 'slow'],
-    resistant: ['energy', 'physical'],
+    resistant: ['physical'],
     taunt: true,
     // Methods
     draw: function() {
@@ -219,7 +219,7 @@ enemy.spawner = {
     name: 'spawner',
     // Stats
     cash: 10,
-    health: 1150,
+    health: 1000,
     // Methods
     onKilled: function() {
         if (this.alive) {

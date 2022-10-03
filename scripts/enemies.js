@@ -152,8 +152,8 @@ enemy.tank = {
     // Misc
     name: 'tank',
     // Stats
-    cash: 4,
-    health: 750,
+    cash: 10,
+    health: 1000,
     immune: ['poison', 'slow'],
     resistant: ['physical'],
     weak: ['explosion', 'piercing', 'death'],

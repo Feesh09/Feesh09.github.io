@@ -23,8 +23,6 @@ tower.gun = {
     cooldownMin: 2,
     cost: 10,
     range: 1,
-    damageMax: 1,
-    damageMin: 1
     // Upgrades
     upgrades: [
         {

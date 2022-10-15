@@ -16,7 +16,7 @@ var effects = {};
 
 effects.slow = {
     // Display
-    color: [68, 108, 179],
+    color: [0, 191, 255],
     // Misc
     name: 'slow',
     // Methods
@@ -32,7 +32,7 @@ effects.slow = {
 
 effects.poison = {
     // Display
-    color: [102, 204, 26],
+    color: [127, 255, 0],
     // Misc
     name: 'poison',
     // Methods
@@ -43,7 +43,7 @@ effects.poison = {
 
 effects.regen = {
     // Display
-    color: [210, 82, 127],
+    color: [0, 100, 0],
     // Misc
     name: 'regen',
     // Methods

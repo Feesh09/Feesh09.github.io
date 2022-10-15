@@ -17,7 +17,7 @@ var enemy = {};
 
 enemy.weak = {
     // Display
-    color: [189, 195, 199],
+    color: [169, 169, 169],
     // Misc
     name: 'weak',
     // Stats
@@ -27,7 +27,7 @@ enemy.weak = {
 
 enemy.strong = {
     // Display
-    color: [108, 122, 137],
+    color: [100, 149, 237],
     radius: 0.6,
     // Misc
     name: 'strong',
@@ -38,7 +38,7 @@ enemy.strong = {
 
 enemy.fast = {
     // Display
-    color: [61, 251, 255],
+    color: [255, 215, 0],
     // Misc
     name: 'fast',
     // Stats
@@ -64,7 +64,7 @@ enemy.fast = {
 
 enemy.strongFast = {
     // Display
-    color: [30, 139, 195],
+    color: [216, 187, 120],
     // Misc
     name: 'strongFast',
     // Stats
@@ -90,7 +90,7 @@ enemy.strongFast = {
 
 enemy.medic = {
     // Display
-    color: [192, 57, 43],
+    color: [53, 182, 62],
     radius: 0.7,
     // Misc
     name: 'medic',
@@ -109,7 +109,7 @@ enemy.medic = {
 
 enemy.stronger = {
     // Display
-    color: [52, 73, 94],
+    color: [73, 202, 128],
     radius: 0.8,
     // Misc
     name: 'stronger',
@@ -120,7 +120,7 @@ enemy.stronger = {
 
 enemy.faster = {
     // Display
-    color: [249, 105, 14],
+    color: [241, 253, 28],
     // Misc
     name: 'faster',
     // Stats
@@ -147,7 +147,7 @@ enemy.faster = {
 
 enemy.tank = {
     // Display
-    color: [30, 130, 76],
+    color: [75, 83, 32],
     radius: 1,
     // Misc
     name: 'tank',
@@ -181,7 +181,7 @@ enemy.tank = {
 
 enemy.taunt = {
     // Display
-    color: [102, 51, 153],
+    color: [144, 7, 253],
     radius: 0.8,
     // Misc
     name: 'taunt',
@@ -213,7 +213,7 @@ enemy.taunt = {
 
 enemy.spawner = {
     // Display
-    color: [244, 232, 66],
+    color: [144, 7, 253],
     radius: 0.7,
     // Misc
     name: 'spawner',

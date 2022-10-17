@@ -19,8 +19,8 @@ tower.gun = {
     name: 'gun',
     title: 'Gun Tower',
     // Stats
-    cooldownMax: 4.5,
-    cooldownMin: 2,
+    cooldownMax: 2.25,
+    cooldownMin: 1,
     cost: 10,
     range: 1,
     // Upgrades
@@ -32,7 +32,7 @@ tower.gun = {
             name: 'machineGun',
             title: 'Machine Gun',
             // Stats
-            cooldownMax: 5,
+            cooldownMax: 2.5,
             cooldownMin: 0,
             cost: 75,
             damageMax: 10,
@@ -52,7 +52,7 @@ tower.laser = {
     name: 'laser',
     title: 'Laser Tower',
     // Stats
-    cooldownMax: 1,
+    cooldownMax: 0.5,
     cost: 75,
     damageMax: 3,
     range: 2,
@@ -157,8 +157,8 @@ tower.slow = {
             name: 'poison',
             title: 'Poison Tower',
             // Stats
-            cooldownMax: 60,
-            cooldownMin: 60,
+            cooldownMax: 30,
+            cooldownMin: 30,
             cost: 150,
             range: 2,
             type: 'poison',
@@ -182,8 +182,8 @@ tower.sniper = {
     sound: 'sniper',
     title: 'Sniper Tower',
     // Stats
-    cooldownMax: 100,
-    cooldownMin: 60,
+    cooldownMax: 50,
+    cooldownMin: 30,
     cost: 150,
     damageMax: 100,
     damageMin: 100,
@@ -225,8 +225,8 @@ tower.sniper = {
             sound: 'railgun',
             title: 'Railgun',
             // Stats
-            cooldownMax: 120,
-            cooldownMin: 100,
+            cooldownMax: 60,
+            cooldownMin: 50,
             cost: 300,
             damageMax: 200,
             damageMin: 200,
@@ -279,8 +279,8 @@ tower.rocket = {
     sound: 'missile',
     title: 'Rocket Tower',
     // Stats
-    cooldownMax: 80,
-    cooldownMin: 60,
+    cooldownMax: 40,
+    cooldownMin: 30,
     cost: 250,
     range: 7,
     damageMax: 60,
@@ -332,8 +332,8 @@ tower.rocket = {
             sound: 'missile',
             title: 'Missile Silo',
             // Stats
-            cooldownMax: 80,
-            cooldownMin: 40,
+            cooldownMax: 40,
+            cooldownMin: 20,
             cost: 250,
             damageMax: 120,
             damageMin: 100,
@@ -392,8 +392,8 @@ tower.bomb = {
     name: 'bomb',
     title: 'Bomb Tower',
     // Stats
-    cooldownMax: 60,
-    cooldownMin: 40,
+    cooldownMax: 30,
+    cooldownMin: 20,
     cost: 250,
     damageMax: 60,
     damageMin: 20,
@@ -434,8 +434,8 @@ tower.bomb = {
             name: 'clusterBomb',
             title: 'Cluster Bomb',
             // Stats
-            cooldownMax: 80,
-            cooldownMin: 40,
+            cooldownMax: 40,
+            cooldownMin: 20,
             cost: 250,
             damageMax: 140,
             damageMin: 100,
@@ -499,8 +499,8 @@ tower.tesla = {
     sound: 'spark',
     title: 'Destroyer',
     // Stats
-    cooldownMax: 80,
-    cooldownMin: 60,
+    cooldownMax: 40,
+    cooldownMin: 30,
     cost: 1000,
     damageMax: 800,
     damageMin: 400,
@@ -558,8 +558,8 @@ tower.tesla = {
             name: 'death',
             title: 'Destroyer',
             // Stats
-            cooldownMax: 30,
-            cooldownMin: 20,
+            cooldownMax: 15,
+            cooldownMin: 10,
             cost: 10000,
             damageMax: 5000,
             damageMin: 2500,

@@ -112,7 +112,7 @@ tower.slow = {
     cost: 100,
     damageMax: 0,
     damageMin: 0,
-    range: 1,
+    range: 1.5,
     type: 'slow',
     // Methods
     drawBarrel: function() {

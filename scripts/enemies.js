@@ -22,7 +22,7 @@ enemy.weak = {
     name: 'weak',
     // Stats
     cash: 1,
-    health: 50,
+    health: 75,
     speed: 2,
 };
 
@@ -34,7 +34,7 @@ enemy.strong = {
     name: 'strong',
     // Stats
     cash: 2,
-    health: 90,
+    health: 100,
     speed: 2,
 };
 
@@ -45,7 +45,7 @@ enemy.fast = {
     name: 'fast',
     // Stats
     cash: 2,
-    health: 90,
+    health: 115,
     speed: 2,
     // Methods
     draw: function() {

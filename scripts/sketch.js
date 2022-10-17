@@ -489,34 +489,34 @@ function randomTile() {
 function randomWave() {
     var waves = [];
 
-    if (isWave(0, 3)) {
+    if (isWave(0, 2)) {
         waves.push([40, ['weak', 50]]);
     }
-    if (isWave(2, 4)) {
+    if (isWave(1, 3)) {
         waves.push([20, ['weak', 25]]);
     }
-    if (isWave(2, 7)) {
+    if (isWave(1, 6)) {
         waves.push([30, ['weak', 25], ['strong', 25]]);
         waves.push([20, ['strong', 25]]);
     }
-    if (isWave(3, 7)) {
+    if (isWave(2, 6)) {
         waves.push([40, ['fast', 25]]);
     }
-    if (isWave(4, 14)) {
+    if (isWave(3, 13)) {
         waves.push([20, ['fast', 50]]);
     }
-    if (isWave(5, 6)) {
+    if (isWave(4, 5)) {
         waves.push([20, ['strong', 50], ['fast', 25]]);
     }
-    if (isWave(8, 12)) {
+    if (isWave(7, 11)) {
         waves.push([20, ['medic', 'strong', 'strong', 25]]);
     }
-    if (isWave(10, 13)) {
+    if (isWave(9, 12)) {
         waves.push([20, ['medic', 'strong', 'strong', 50]]);
         waves.push([30, ['medic', 'strong', 'strong', 50], ['fast', 50]]);
         waves.push([5, ['fast', 50]]);
     }
-    if (isWave(12, 16)) {
+    if (isWave(11, 15)) {
         waves.push([20, ['medic', 'strong', 'strong', 50], ['strongFast', 50]]);
         waves.push([10, ['strong', 50], ['strongFast', 50]]);
         waves.push([10, ['medic', 'strongFast', 50]]);
@@ -528,14 +528,14 @@ function randomWave() {
         waves.push([5, ['strongFast', 100]]);
         waves.push([20, ['stronger', 50]]);
     }
-    if (isWave(13, 20)) {
+    if (isWave(12, 19)) {
         waves.push([40, ['tank', 'stronger', 'stronger', 'stronger', 10]]);
         waves.push([10, ['medic', 'stronger', 'stronger', 50]]);
         waves.push([40, ['tank', 25]]);
         waves.push([20, ['tank', 'stronger', 'stronger', 50]]);
         waves.push([20, ['tank', 'medic', 50], ['strongFast', 25]]);
     }
-    if (isWave(14, 20)) {
+    if (isWave(13, 19)) {
         waves.push([20, ['tank', 'stronger', 'stronger', 50]]);
         waves.push([20, ['tank', 'medic', 'medic', 50]]);
         waves.push([20, ['tank', 'medic', 50], ['strongFast', 25]]);
@@ -543,17 +543,17 @@ function randomWave() {
         waves.push([10, ['faster', 50]]);
         waves.push([20, ['tank', 50], ['faster', 25]]);
     }
-    if (isWave(17, 25)) {
+    if (isWave(16, 24)) {
         waves.push([20, ['taunt', 'stronger', 'stronger', 'stronger', 25]]);
         waves.push([20, ['spawner', 'stronger', 'stronger', 'stronger', 25]]);
         waves.push([20, ['taunt', 'tank', 'tank', 'tank', 25]]);
         waves.push([40, ['taunt', 'tank', 'tank', 'tank', 25]]);
     }
-    if (isWave(19)) {
+    if (isWave(18)) {
         waves.push([20, ['spawner', 1], ['tank', 20], ['stronger', 25]]);
         waves.push([20, ['spawner', 1], ['faster', 25]]);
     }
-    if (isWave(23)) {
+    if (isWave(22)) {
         waves.push([20, ['taunt', 'medic', 'tank', 25]]);
         waves.push([20, ['spawner', 2], ['taunt', 'medic', 'tank', 25]]);
         waves.push([10, ['spawner', 1], ['faster', 100]]);
@@ -567,7 +567,7 @@ function randomWave() {
             ['faster', 50]
         ]);
     }
-    if (isWave(25)) {
+    if (isWave(24)) {
         waves.push([5, ['taunt', 'medic', 'tank', 50], ['faster', 50]]);
         waves.push([5, ['taunt', 'faster', 'faster', 'faster', 50]]);
         waves.push([
@@ -575,13 +575,13 @@ function randomWave() {
             ['faster', 50]
         ]);
     }
-    if (isWave(30)) {
+    if (isWave(29)) {
         waves.push([5, ['taunt', 'faster', 'faster', 'faster', 50]]);
         waves.push([5, ['taunt', 'tank', 'tank', 'tank', 50]]);
         waves.push([5, ['taunt', 'medic', 'tank', 'tank', 50]]);
         waves.push([1, ['faster', 200]]);
     }
-    if (isWave(35)) {
+    if (isWave(34)) {
         waves.push([0, ['taunt', 'faster', 200]]);
     }
 

@@ -20,7 +20,7 @@ tower.gun = {
     title: 'Gun Tower',
     // Stats
     cooldownMax: 2.25,
-    cooldownMin: 1,
+    cooldownMin: 1.5,
     cost: 10,
     range: 1,
     // Upgrades
@@ -33,7 +33,7 @@ tower.gun = {
             title: 'Machine Gun',
             // Stats
             cooldownMax: 2.5,
-            cooldownMin: 0,
+            cooldownMin: 1.5,
             cost: 75,
             damageMax: 10,
             damageMin: 0

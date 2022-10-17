@@ -46,7 +46,7 @@ enemy.fast = {
     // Stats
     cash: 2,
     health: 90,
-    speed: 4,
+    speed: 2,
     // Methods
     draw: function() {
         push();
@@ -70,7 +70,7 @@ enemy.strongFast = {
     // Misc
     name: 'strongFast',
     // Stats
-    cash: 4,
+    cash: 3,
     health: 150,
     speed: 4,
     // Methods
@@ -97,7 +97,7 @@ enemy.medic = {
     // Misc
     name: 'medic',
     // Stats
-    cash: 4,
+    cash: 3,
     health: 390,
     speed: 3,
     immune: ['regen'],

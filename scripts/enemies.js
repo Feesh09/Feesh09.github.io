@@ -21,7 +21,7 @@ enemy.weak = {
     // Misc
     name: 'weak',
     // Stats
-    cash: 2,
+    cash: 1,
     health: 50,
     speed: 2,
 };
@@ -33,7 +33,7 @@ enemy.strong = {
     // Misc
     name: 'strong',
     // Stats
-    cash: 3,
+    cash: 2,
     health: 90,
     speed: 2,
 };
@@ -70,7 +70,7 @@ enemy.strongFast = {
     // Misc
     name: 'strongFast',
     // Stats
-    cash: 5,
+    cash: 4,
     health: 150,
     speed: 4,
     // Methods
@@ -97,7 +97,7 @@ enemy.medic = {
     // Misc
     name: 'medic',
     // Stats
-    cash: 5,
+    cash: 4,
     health: 390,
     speed: 3,
     immune: ['regen'],
@@ -117,7 +117,7 @@ enemy.stronger = {
     // Misc
     name: 'stronger',
     // Stats
-    cash: 4,
+    cash: 3,
     health: 390,
     speed: 3,
 };
@@ -128,7 +128,7 @@ enemy.faster = {
     // Misc
     name: 'faster',
     // Stats
-    cash: 4,
+    cash: 3,
     health: 390,
     resistant: ['explosion'],
     speed: 3,
@@ -156,7 +156,7 @@ enemy.tank = {
     // Misc
     name: 'tank',
     // Stats
-    cash: 10,
+    cash: 9,
     health: 1015,
     speed: 3,
     immune: ['poison', 'slow'],
@@ -192,7 +192,7 @@ enemy.taunt = {
     name: 'taunt',
     sound: 'taunt',
     // Stats
-    cash: 8,
+    cash: 7,
     health: 1515,
     speed: 3,
     immune: ['poison', 'slow'],
@@ -224,7 +224,7 @@ enemy.spawner = {
     // Misc
     name: 'spawner',
     // Stats
-    cash: 10,
+    cash: 9,
     health: 1015,
     // Methods
     onKilled: function() {

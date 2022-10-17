@@ -22,7 +22,7 @@ enemy.weak = {
     name: 'weak',
     // Stats
     cash: 2,
-    health: 35,
+    health: 50,
     speed: 2,
 };
 
@@ -34,7 +34,7 @@ enemy.strong = {
     name: 'strong',
     // Stats
     cash: 3,
-    health: 75,
+    health: 90,
     speed: 2,
 };
 
@@ -45,7 +45,7 @@ enemy.fast = {
     name: 'fast',
     // Stats
     cash: 2,
-    health: 75,
+    health: 90,
     speed: 4,
     // Methods
     draw: function() {
@@ -71,7 +71,7 @@ enemy.strongFast = {
     name: 'strongFast',
     // Stats
     cash: 5,
-    health: 135,
+    health: 150,
     speed: 4,
     // Methods
     draw: function() {
@@ -98,7 +98,7 @@ enemy.medic = {
     name: 'medic',
     // Stats
     cash: 5,
-    health: 375,
+    health: 390,
     speed: 3,
     immune: ['regen'],
     // Methods
@@ -118,7 +118,7 @@ enemy.stronger = {
     name: 'stronger',
     // Stats
     cash: 4,
-    health: 375,
+    health: 390,
     speed: 3,
 };
 
@@ -129,7 +129,7 @@ enemy.faster = {
     name: 'faster',
     // Stats
     cash: 4,
-    health: 375,
+    health: 390,
     resistant: ['explosion'],
     speed: 3,
     // Methods
@@ -157,7 +157,7 @@ enemy.tank = {
     name: 'tank',
     // Stats
     cash: 10,
-    health: 1000,
+    health: 1015,
     speed: 3,
     immune: ['poison', 'slow'],
     resistant: ['physical'],
@@ -193,7 +193,7 @@ enemy.taunt = {
     sound: 'taunt',
     // Stats
     cash: 8,
-    health: 1500,
+    health: 1515,
     speed: 3,
     immune: ['poison', 'slow'],
     resistant: ['physical'],
@@ -225,7 +225,7 @@ enemy.spawner = {
     name: 'spawner',
     // Stats
     cash: 10,
-    health: 1000,
+    health: 1015,
     // Methods
     onKilled: function() {
         if (this.alive) {

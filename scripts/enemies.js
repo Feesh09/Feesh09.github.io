@@ -22,7 +22,8 @@ enemy.weak = {
     name: 'weak',
     // Stats
     cash: 2,
-    health: 35
+    health: 35,
+    speed: 2,
 };
 
 enemy.strong = {
@@ -33,7 +34,8 @@ enemy.strong = {
     name: 'strong',
     // Stats
     cash: 3,
-    health: 75
+    health: 75,
+    speed: 2,
 };
 
 enemy.fast = {
@@ -44,7 +46,7 @@ enemy.fast = {
     // Stats
     cash: 2,
     health: 75,
-    speed: 2,
+    speed: 4,
     // Methods
     draw: function() {
         push();
@@ -70,7 +72,7 @@ enemy.strongFast = {
     // Stats
     cash: 5,
     health: 135,
-    speed: 2,
+    speed: 4,
     // Methods
     draw: function() {
         push();
@@ -97,6 +99,7 @@ enemy.medic = {
     // Stats
     cash: 5,
     health: 375,
+    speed: 3,
     immune: ['regen'],
     // Methods
     onTick: function() {
@@ -115,7 +118,8 @@ enemy.stronger = {
     name: 'stronger',
     // Stats
     cash: 4,
-    health: 375
+    health: 375,
+    speed: 3,
 };
 
 enemy.faster = {
@@ -154,6 +158,7 @@ enemy.tank = {
     // Stats
     cash: 10,
     health: 1000,
+    speed: 3,
     immune: ['poison', 'slow'],
     resistant: ['physical'],
     weak: ['explosion', 'piercing', 'death'],
@@ -189,6 +194,7 @@ enemy.taunt = {
     // Stats
     cash: 8,
     health: 1500,
+    speed: 3,
     immune: ['poison', 'slow'],
     resistant: ['physical'],
     taunt: true,

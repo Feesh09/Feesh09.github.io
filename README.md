@@ -4,7 +4,7 @@ You can also make and edit custom maps using this
 [map editor](https://rsaihe.github.io/td-editor/). Instructions are located on
 the Github [repo](https://github.com/rsaihe/td-editor/).
 
-### Controls:
+### Controls
 * Esc to deselect tower
 * Left and right brackets to change map size (will reset game!)
 * Mouse to place a tower

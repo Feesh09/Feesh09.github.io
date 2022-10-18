@@ -501,7 +501,7 @@ tower.tesla = {
     // Stats
     cooldownMax: 40,
     cooldownMin: 30,
-    cost: 1000,
+    cost: 8000,
     damageMax: 800,
     damageMin: 400,
     range: 5,
@@ -560,7 +560,7 @@ tower.tesla = {
             // Stats
             cooldownMax: 15,
             cooldownMin: 10,
-            cost: 10000,
+            cost: 18000,
             damageMax: 5000,
             damageMin: 2500,
             // Methods
